@@ -5,3 +5,8 @@ entity jpa --class ~.domain.Enterprise
 field string --fieldName name --notNull --sizeMin 2
 exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2556-10-23 06:50:44
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2556-10-23 06:56:21
+// [failed] entity jpa --class ~.Entity.test
+entity jpa --class ~.Entity.presonnel
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2556-10-23 06:56:50
