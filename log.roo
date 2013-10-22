@@ -1,0 +1,7 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2556-10-23 06:48:38
+project --topLevelPackage sut.se.Enterprise
+persistence setup --provider HIBERNATE --database MYSQL
+entity jpa --class ~.domain.Enterprise
+field string --fieldName name --notNull --sizeMin 2
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2556-10-23 06:50:44
